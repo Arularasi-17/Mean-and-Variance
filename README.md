@@ -1,4 +1,4 @@
-# Date : 
+# Date :06/10/2023
 # Exp No: 1- Mean and variance of a discrete  distribution
 
 
@@ -49,10 +49,11 @@ It shows the distance of a random variable from its mean. It is calcualted as
 ![image](https://user-images.githubusercontent.com/103921593/229993174-5b67e57e-3e01-4ac4-9f83-410a932b22bf.png)
 
 # Program :
-#Developed By: ARULARASI U
-#Register No: 212223100002
+```
+Developed By: ARULARASI U
+Register No: 212223100002
 
-`````
+
 import numpy as np
 L=[int(i) for i in input().split()]
 N=len(L); M=max(L) 
@@ -75,7 +76,7 @@ SD=np.sqrt(var)
 print("The Mean arrival rate is %.3f "%mean)
 print("The Variance of arrival from feeder is %.3f "%var) 
 print("The Standard deviation of arrival from feeder is %.3F "%SD)
-`````
+```
 
 # Output : 
 ![image](https://github.com/Arularasi-17/Mean-and-Variance/assets/147410018/4418c6d4-aeda-4600-a208-303d3bd21a55)
