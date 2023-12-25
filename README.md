@@ -52,8 +52,6 @@ It shows the distance of a random variable from its mean. It is calcualted as
 ```
 Developed By: ARULARASI U
 Register No: 212223100002
-
-
 import numpy as np
 L=[int(i) for i in input().split()]
 N=len(L); M=max(L) 
@@ -76,10 +74,12 @@ SD=np.sqrt(var)
 print("The Mean arrival rate is %.3f "%mean)
 print("The Variance of arrival from feeder is %.3f "%var) 
 print("The Standard deviation of arrival from feeder is %.3F "%SD)
+
 ```
 
 # Output : 
-![image](https://github.com/Arularasi-17/Mean-and-Variance/assets/147410018/4418c6d4-aeda-4600-a208-303d3bd21a55)
+![image](https://github.com/Arularasi-17/Mean-and-Variance/assets/147410018/cc992361-f2e2-4728-8d76-86b6b0bde09a)
+
 
 # Results :
 The mean and variance of arrivals of objects from feeder using probability distribution are calculated.
